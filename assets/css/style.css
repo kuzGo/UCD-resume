@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 
-/* ------------------Colours */
+/* ---------------------------------------Colours */
 .bg-color-name-title {
     background-color: #676767;
 
@@ -18,7 +18,7 @@
 .ui-menu-color-download {
     background-color: #525252;
 }
-/* ------------------Heading */
+/* ------------------------------------Heading */
 header{
     margin:0;
 }
@@ -60,6 +60,9 @@ header{
 .menucontainer{
     font-size: 0;
 }
+#nav {
+    margin: 0;
+}
 #nav li {
     font-size: 14px;
     padding: 0;
@@ -90,5 +93,10 @@ header{
     text-align: center;
     text-transform: uppercase;
     font-weight: 300;
+}
+/* ------------------------------------Hover.css*/
+.hvr-sweep-to-bottom:before{
+    background-color: rgba(0, 0,0, 0.2);
+    height: 120px;
 
 }
